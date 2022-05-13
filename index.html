@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8"> <!-- This is the Encoding Character -->
+  <title>Tommi's Personal Site</title>
+  <table>
+    <tr>
+      <td>
+      <form class="" action="Contact Me.html" method="post">
+        <label>Username</label>
+        <input type="text" name="" value=""><br>
+      </td>
+      <td>
+        <label>Password</label>
+        <input type="password" name="" value="">
+        <td>
+          <input type="submit" name="" value="Login">
+        </td>
+      </form>
+      </td>
+    </tr>
+  </table>
+</head>
+<body>
+  <table cellspacing="20">
+    <td><img src="C:\Users\tommi\Desktop\LumiByMari\Web Development\HTML - Personal Site\download.png" heigh="200" width="200"alt="Unable to Load - Tommi Profile Picture"></td>
+    <td><h1>Tommi</h1>
+    <p><em>Sales represantative at <strong>AT&T</strong>.</em></p>
+    <p>I am a sales representative. I love videogames and I'm from England.</p></td>
+  </table>
+  <hr/>
+  <h3><strong>Education</strong></h3>
+  <ul>
+    <li><a href="https://lphs.alpineschools.org" target="_blank">Lone Peak Highschool</a></li>
+    <li>Self Taught Hacker and Front End Developer</li>
+    <li>Professional Sales Represantative with Years of Practical Experience</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>2000-2005</td>
+      <td>Child Videogame Prodigy</td>
+    </tr>
+    <tr>
+      <td>2005-Now</td>
+      <td>Professional Videogame Player</td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+
+<!--\/\/Don't pay attention to this unless you want to understand the complications of making 2 tables inside of a parent table and how i made that work without CSS -->
+
+<table> <!-- Inside of this MASTER table there are 2 other tables -->
+  <tr> <!-- This is 1 big row of 2 tables meaning table 1 is left table 2 is right-->
+    <td> <!-- This just allows data to be stored in table row (else there'd be nothing there) -->
+      <table cellspacing="5"> <!-- This is table 1 on the left side because its the first in parent TABLE's TABLE DATA-->
+        <tr>
+          <td>Videogames</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>Sales</td>
+          <td>★★★★☆</td>
+        </tr>
+      </table> <!-- This is table 1 on the left side -->
+    </td>
+    <td>
+      <table cellspacing="5"> <!-- This is table 2 on the right side because its the second in parent TABLE's TABLE DATA -->
+        <tr>
+          <td>Snowboarding</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>Coding</td>
+          <td>★☆☆☆☆</td>
+        </tr>
+      </table> <!-- This is table 2 on the right side -->
+    </td>
+  </tr>
+</table>
+
+<!--/\/\Don't pay attention to this unless you want to understand the complications of making 2 tables inside of a parent table and how i made that work without CSS -->
+
+  <hr>
+<a href="./hobbies.html">My Hobbies</a>
+<a href="./Contact Me.html">Contact Me</a>
+</body>
+</html>
